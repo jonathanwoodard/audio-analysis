@@ -4,21 +4,22 @@ Audiomatch allows users to select audio files (currently only supports .wav file
 
 Python Version: 2.7
 
+<br>
 ###Dependencies
 ==============================
-PyAudio (v0.2.8): 
-Website - http://people.csail.mit.edu/hubert/pyaudio/
-Python Package Index - https://pypi.python.org/pypi/PyAudio
+PyAudio (v0.2.8): <br>
+Website - http://people.csail.mit.edu/hubert/pyaudio/ <br>
+Python Package Index - https://pypi.python.org/pypi/PyAudio/ <br> 
 ```pip install Pyaudio```
 
-Numpy (v1.8.1):
-Website - http://www.numpy.org/
-Python Package Index - https://pypi.python.org/pypi/numpy/1.8.1
+Numpy (v1.8.1): <br>
+Website - http://www.numpy.org/ <br>
+Python Package Index - https://pypi.python.org/pypi/numpy/1.8.1/ <br>
 ```pip install Numpy```
 
-MatPlotLib (v1.3.1):
-Website - http://matplotlib.org/
-Python Package Index - https://pypi.python.org/pypi/matplotlib/1.3.1
+MatPlotLib (v1.3.1): <br>
+Website - http://matplotlib.org/ <br>
+Python Package Index - https://pypi.python.org/pypi/matplotlib/1.3.1/ <br>
 ```pip install Matplotlib```
 
 
