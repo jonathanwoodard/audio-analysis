@@ -4,9 +4,12 @@ Audiomatch allows users to select audio files (currently only supports .wav file
 
 Python Version: 2.7
 
-<br>
+
+-------
+
+
 ###Dependencies
-==============================
+
 PyAudio (v0.2.8): <br>
 Website - http://people.csail.mit.edu/hubert/pyaudio/ <br>
 Python Package Index - https://pypi.python.org/pypi/PyAudio/ <br> 
@@ -24,7 +27,7 @@ Python Package Index - https://pypi.python.org/pypi/matplotlib/1.3.1/ <br>
 
 
 ###Usage
-==============================
+
 1. Run the _audiomatch.py_ Python script in the terminal
 2. Using the GUI, add a .wav file to match in realtime audio (Label, File Selection, and Category)
 3. Press the "Add File" button, feel free to add more files to match (unlimited number)
@@ -33,7 +36,7 @@ Python Package Index - https://pypi.python.org/pypi/matplotlib/1.3.1/ <br>
 
 
 ###How It Works
-==============================
+
 1. User Selects Audio File (.wav) to be matched in realtime audio and gives it a label and category
 2. The file and its attached label and category are added to a list of all of the files to analyze
 3. When the analysis is started, the software produces a fingerprint of each audio file using Fast Fourier Transforms (FFT's) and stores that fingerprint
@@ -42,7 +45,7 @@ Python Package Index - https://pypi.python.org/pypi/matplotlib/1.3.1/ <br>
 
 
 ###The Interface
-==============================
+
 When the script runs, a TK GUI appears prompting the user to add at least one .wav file containing sounds to match in realtime audio, and has several options to modify how the program analyzes the audio and matches it. If left empty, each option will fallback to a set default. A description of each option is below:
 
 **SampleTime** - The amount of time (in seconds) that the script will sample realtime audio to fingerprint for. Default: 4 Seconds
