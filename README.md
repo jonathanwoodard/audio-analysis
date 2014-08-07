@@ -7,6 +7,9 @@ Python Version: 2.7
 
 -------
 
+###Important Notes
+Currently only supports **.WAV Files** with **16 Bits per sample** and a sample rate of **48,000kHz**
+
 
 ###Dependencies
 
