@@ -48,10 +48,10 @@ Python Package Index - https://pypi.python.org/pypi/matplotlib/1.3.1/ <br>
 
 When the script runs, a TK GUI appears prompting the user to add at least one .wav file containing sounds to match in realtime audio, and has several options to modify how the program analyzes the audio and matches it. If left empty, each option will fallback to a set default. A description of each option is below:
 
-**SampleTime** - The amount of time (in seconds) that the script will sample realtime audio to fingerprint for. Default: 4 Seconds
+```SampleTime``` - The amount of time (in seconds) that the script will sample realtime audio to fingerprint for. Default: 4 Seconds
 
-**Repeat Analysis** - The number of times the program will sample realtime audio, fingerprint it, and scan the fingerprint for the amount of sound from each sound file that is present in the sample. Default: 5 Times
+```Repeat Analysis``` - The number of times the program will sample realtime audio, fingerprint it, and scan the fingerprint for the amount of sound from each sound file that is present in the sample. Default: 5 Times
 
-**Frequency Bands** - An entry to limit the frequency bands the program will scan in the realtime sample. For example, if you know a sound you are trying to match is typically between 300 and 500 Hertz, you can enter 300-500 to search only in that band, durastically reducing the time the program takes to scan a sample of realtime audio for matches.
+```Frequency Bands``` - An entry to limit the frequency bands the program will scan in the realtime sample. For example, if you know a sound you are trying to match is typically between 300 and 500 Hertz, you can enter 300-500 to search only in that band, durastically reducing the time the program takes to scan a sample of realtime audio for matches.
 
 
