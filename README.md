@@ -40,7 +40,7 @@ Python Package Index - https://pypi.python.org/pypi/matplotlib/1.3.1/ <br>
 
 ###How It Works
 
-1. User Selects Audio File (.wav) to be matched in realtime audio and gives it a label and category
+1. User selects an audio file (.wav) to be matched in realtime audio and gives it a label and category
 2. The file and its attached label and category are added to a list of all of the files to analyze
 3. When the analysis is started, the software produces a fingerprint of each audio file using Fast Fourier Transforms (FFT's) and stores that fingerprint
 4. The microphone is then used to capture realtime audio and produce fingerprints for each slice of the realtime stream
