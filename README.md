@@ -1,6 +1,6 @@
 Audiomatch
 ==============================
-Audiomatch allows users to select audio files (currently only supports .wav files) that are then fingerprinted. Audiomatch then attempts to match (as closely as possible) the audio fingerprints to realtime audio input through a microphone.
+Audiomatch allows users to select audio files (currently only supports .wav files) that are then fingerprinted. Audiomatch attempts to match the audio fingerprints to realtime audio input through a microphone.
 
 Python Version: 2.7
 
